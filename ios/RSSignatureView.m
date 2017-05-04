@@ -114,7 +114,6 @@
 				titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.height - 80, 24)];
 				[titleLabel setCenter:CGPointMake(40, self.bounds.size.height/2)];
 				[titleLabel setTransform:CGAffineTransformMakeRotation(DEGREES_TO_RADIANS(90))];
-				[titleLabel setText:@"x_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _"];
 				[titleLabel setLineBreakMode:NSLineBreakByClipping];
 				[titleLabel setTextAlignment: NSTextAlignmentLeft];
 				[titleLabel setTextColor:[UIColor colorWithRed:200/255.f green:200/255.f blue:200/255.f alpha:1.f]];
