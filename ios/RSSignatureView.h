@@ -1,7 +1,7 @@
 #import "PPSSignatureView.h"
 #import <UIKit/UIKit.h>
-#import <React/RCTView.h>
-#import <React/RCTBridge.h>
+#import "RCTView.h"
+#import "RCTBridge.h"
 
 @class RSSignatureViewManager;
 
